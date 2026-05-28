@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tagas</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.407);
+        }
+
+        nav {
+            background-color: rgb(57, 76, 88);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+
+            }
+
+        nav > a {
+                background-color: none;
+                color: azure;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+      
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- é uma div, são vistos como uma div, mas é mais valorizado pelos buscadores-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+    <main> <!-- é uma div, são vistos como uma div, mas é mais valorizado pelos buscadores -->
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, non? Quia eos vel odio placeat consectetur et doloremque dolores sunt, possimus error, beatae sint minima repellat, facere nemo fuga temporibus.</p>
+                <aside>
+                    <p>Artigo escrito por Diogo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Diogo</p>
+    </footer>
+    <div id="bola"></div>
+
+    
+</body>
+</html>
