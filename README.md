@@ -21,10 +21,10 @@ CURSO GUANABARA HTML5-CSS
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex015/index.html">Executar o exercício 015</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex016/index.html">Executar o exercício 016</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex017/index.html">Executar o exercício 017</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex018/index.html">Executar o exercício 018</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex019/index.html">Executar o exercício 019</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex020/index.html">Executar o exercício 020</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex021/index.html">Executar o exercício 021</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex018/fonte01.html">Executar o exercício 018</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex019/seletor01.html">Executar o exercício 019</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex020/links.html">Executar o exercício 020</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex021/caixa01.html">Executar o exercício 021</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex022/index.html">Executar o exercício 022</a></li>
 </ul>
 
