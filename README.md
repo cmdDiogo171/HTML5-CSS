@@ -5,8 +5,8 @@ CURSO GUANABARA HTML5-CSS
 
 
 <ul>
-    <l1><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex001/index.html">Executar o exercício 001</a></l1>
-    <l1><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex002/index.html">Executar o exercício 002</a></l1>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex001/index.html">Executar o exercício 001</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex002/index.html">Executar o exercício 002</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex003/index.html">Executar o exercício 003</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex004/index.html">Executar o exercício 004</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/exercicio/ex006/index.html">Executar o exercício 006</a></li>
