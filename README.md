@@ -31,14 +31,14 @@ CURSO GUANABARA HTML5-CSS
 <h1>Desafios</h1>
 
 <ul>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio1/index.html">Executar o desafio 1</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio2/index.html">Executar o desafio 2</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio3/index.html">Executar o desafio 3</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio4/index.html">Executar o desafio 4</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio5/index.html">Executar o desafio 5</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio6/index.html">Executar o desafio 6</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio7/index.html">Executar o desafio 7</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio8/index.html">Executar o desafio 8</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio9/index.html">Executar o desafio 9</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio10/android.html">Executar o desafio 10</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 1/index.html">Executar o desafio 1</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 2/index.html">Executar o desafio 2</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 3/index.html">Executar o desafio 3</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 4/index.html">Executar o desafio 4</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 5/index.html">Executar o desafio 5</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 6/index.html">Executar o desafio 6</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 7/index.html">Executar o desafio 7</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 8/index.html">Executar o desafio 8</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 9/index.html">Executar o desafio 9</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio 10/android.html">Executar o desafio 10</a></li>
 </ul>
