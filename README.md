@@ -40,5 +40,5 @@ CURSO GUANABARA HTML5-CSS
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio7/index.html">Executar o desafio 7</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio8/index.html">Executar o desafio 8</a></li>
     <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio9/index.html">Executar o desafio 9</a></li>
-    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio10/index.html">Executar o desafio 10</a></li>
+    <li><a href="https://cmddiogo171.github.io/HTML5-CSS/desafios/desafio10/android.html">Executar o desafio 10</a></li>
 </ul>
