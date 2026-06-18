@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) { /* ou 2n */
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+    TABLE
+        CAPTION - LEGENDA
+        THEAD - CABEÇA
+            TR,TD (para todos os dados),TH (para título, população, estado)
+
+        TBODY - CORPO
+            TR,TD,TH 
+
+         TFOOT - RODAPÉ
+            TR,TD,TH  
+            tudo isso é útil para os mecânismos de busca / scope="row" é um exemplo 
+
+    -->
+
+    <table>
+        <caption>População das unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46.081.801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.393.441</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.223.547</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.870.907</td>
+            </tr>
+
+              <tr>
+                <td>Paraná</td>
+                <td class="num">11.890.517</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+
+                <td class="num"><strong>66.706.113</strong></td>
+            </tr>
+        </tfoot>
+    </table> 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam alias unde modi aperiam ipsam, eaque voluptas error totam sint laudantium saepe accusamus, itaque impedit voluptates eos! Ab, veniam distinctio?</p>
+</body>
+</html>
