@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: aquamarine;
+        }
+
+        col.cgrupo {
+            background-color: red;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="verde">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Juiz</td>
+        </tr>
+
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Analista</td>
+        </tr>
+
+        <tr>
+            <td>Analisa</td>
+            <td>F</td>
+            <td>38</td>
+            <td>Cozinheira</td>
+        </tr>
+
+        <tr>
+            <td>Camila</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Contadora</td>
+        </tr>
+
+        <tr>
+            <td>Rodrigo</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Motorista de aplicativo</td>
+        </tr>
+
+    </table>
+</body>
+</html>
